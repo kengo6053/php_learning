@@ -41,7 +41,6 @@ if(!empty($_POST['btn_submit'])){
 
 <?php if($pageFlag === 1 ) : ?>
 
-<form method="POST" action="input.php">
 氏名
 <?php echo $_POST['your_name'] ;?>
 <br>
@@ -58,10 +57,6 @@ if(!empty($_POST['btn_submit'])){
 <?php if($pageFlag === 2 ) : ?>
     送信が完了しました。
 <?php endif; ?>
-
-
-
-<input type="submit" value="送信">
 
 </body>
 </html>
