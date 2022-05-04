@@ -2,7 +2,7 @@
 
 if(!empty($_POST)){
     echo '<pre>';
-    var_dump($_POST);
+    echo $_POST ;
     echo '</pre>';
 }
 
@@ -58,10 +58,6 @@ if(!empty($_POST['btn_submit'])){
 <?php if($pageFlag === 2 ) : ?>
     送信が完了しました。
 <?php endif; ?>
-
-
-
-<input type="submit" value="送信">
 
 </body>
 </html>
